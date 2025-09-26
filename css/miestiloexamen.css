@@ -1,0 +1,325 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: beige;
+}
+
+
+body{
+  margin:0;
+  font-family:Arial, sans-serif;
+  background:#fff;
+  color:#111827;
+}
+
+.container{
+  max-width:1200px;
+  margin:0 auto;
+  padding:0 24px;
+}
+
+.topbar{
+  background:#fff;
+  border-bottom:1px solid #e5e7eb;
+}
+
+.topbar .container{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  height:72px;
+}
+
+.brand{
+  font-weight:800;
+  font-size:26px;
+  text-decoration:none;
+  color:#111;
+}
+
+.brand .dot{
+  color:#dc2626;
+}
+
+.nav{
+  display:flex;
+  gap:28px;
+}
+
+.nav a{
+  text-decoration:none;
+  color:#6b7280;
+  font-weight:600;
+}
+
+.nav a:hover{
+  color:#111;
+}
+
+.btn-reserva{
+  display:inline-block;
+  background:#c00;
+  color:#fff;
+  text-decoration:none;
+  padding:10px 28px;
+  border-radius:50px;
+  font-weight:600;
+}
+
+.btn-lg{
+  padding:14px 24px;
+  border-radius:999px;
+}
+
+.spaceimage{
+  padding-top: 50px;
+  padding-bottom: 70px;
+}
+
+.backgroundcolor{
+    background-color: rgb(33, 63, 63);
+}
+
+.padding{
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.centrado{
+    text-align: center;
+}
+
+.color_orange{
+    color: rgb(255, 115, 0);
+}
+
+.color_white{
+    color: white;
+}
+
+.spaceimage2{
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+#footer {
+  background-color: #171a1d;
+  color: #d7d7d7;
+  padding-top: 3rem;
+}
+
+#footer h6 {
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  letter-spacing: .5px;
+}
+
+#footer p {
+  margin-bottom: .4rem;
+  font-size: .95rem;
+  color: #d7d7d7;
+}
+
+#footer .border-top {
+  border-color: rgba(255, 255, 255, 0.1)
+}
+
+#footer .small {
+  font-size: 0.85rem;
+  color: #a9a9a9;
+}
+
+.espacio{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.footer_color{
+  background-color: black;
+}
+
+.subtitle{
+  font-size:14px;
+  font-weight:600;
+  color:#6b7280;
+  letter-spacing:2px;
+  margin-bottom:10px;
+  text-align: center;
+}
+
+.about-title{
+  font-family:"Amatic SC", cursive;
+  font-size:42px;
+  margin:0 0 20px;
+  text-align: center;
+}
+
+.about-title span{
+  color:#dc2626;
+}
+
+.about-text{
+  color:#444;
+  margin-bottom:16px;
+  line-height:1.6;
+}
+
+.paddign_menu{
+  padding-bottom: 25px;
+}
+
+.paddign_contact{
+  padding-bottom: 50px;
+}
+
+
+.section-title { 
+  text-align: center; 
+}
+
+.section-title { 
+  margin-bottom: 24px; 
+}
+
+.btn-row .btn { 
+  margin: 6px; 
+}
+
+.card .price { 
+  font-weight: 700; 
+}
+
+.accent { 
+  color: #106eea; 
+}
+
+.map-frame {
+  width: 100%;
+  height: 525px;
+  border: 0;
+  border-radius: 12px;
+}
+
+.icon-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 16px;
+  border-radius: 12px;
+  color: #fff;
+  margin-bottom: 12px;
+}
+
+.icon-item i { 
+  font-size: 28px; 
+}
+
+.bg-blue { 
+  background: #106eea; 
+}
+
+.bg-red  { 
+  background: #dc3545; 
+}
+
+.simple-form { 
+  border-radius: 12px; 
+}
+
+.rule {
+  width: 90px;
+  height: 1px;
+  background-color: #6b5a5d;
+  margin: 8px auto 0 auto;
+  opacity: 0.5;
+}
+
+.mini_padding{
+  padding-bottom: 5px;
+}
+
+.textside{
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.textdecor{
+  text-decoration: underline;
+}
+
+.subtitle{
+  font-size:20px;
+  letter-spacing:2px;
+  font-weight:600;
+  color:#6b7280;
+  margin-bottom:5px
+}
+
+.subtitle_red{
+  color: #dc2626;
+}
+
+.contact_pad{
+  padding-top: 30px;
+}
+
+.map {
+  width: 600%;
+  height: 300px;
+  border: 0;
+  border-radius: 8px;
+}
+
+.map_padding{
+  padding-top: 30px;
+}
+
+.footer_padding{
+  padding-bottom: 20px;
+}
+
+.text_contact_padding{
+  padding-top: 30px;
+}
+
+.contact-grid { 
+  padding-top: 20px; padding-bottom: 20px; 
+}
+
+.contact_card {
+  background: #f7f7f7;
+  border-radius: 8px;
+  padding: 24px;
+  box-shadow: 0 2px 8px rgba(0,0,0,.05);
+  gap: 16px;
+}
+
+.contact_icon {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  background: #c7322b;
+  display: grid;
+  place-items: center;
+  flex: 0 0 72px;
+}
+
+.contact_icon i { 
+  font-size: 28px; color: #fff; line-height: 1; 
+}
+
+.contact_copy h3 {
+  font-size: 24px;
+  margin: 0 0 6px 0;
+  font-weight: 700;
+}
+
+.contact_copy p { 
+  margin: 0; font-size: 16px; color: #333; 
+}
+
+.another_padding{
+  padding-top: 30px;
+}
